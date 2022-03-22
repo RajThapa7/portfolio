@@ -1,0 +1,449 @@
+@media (max-width: 1280px) {
+  .inner-project-container {
+    grid-template-columns: auto auto;
+    margin-top: 2rem;
+  }
+  .skill-container1 {
+    width: 28rem;
+  }
+  .outer-project-container {
+    padding: 0 7rem;
+  }
+}
+@media (max-width: 1200px) {
+  .skill-container1 {
+    width: 25rem;
+  }
+  .description {
+    font-size: 1.15rem;
+  }
+  .skill-image-container {
+    box-shadow: 0.5px 0.5px 2px 1px #096088;
+    width: 8rem;
+    height: 8rem;
+  }
+  .skillName {
+    font-size: 2rem;
+    margin-left: 1rem;
+  }
+  .outer-skill-container {
+    /* grid-template-columns: auto; */
+    height: auto;
+    padding-top: 12rem;
+  }
+  .outer-project-container {
+    padding: 0 6rem;
+  }
+ 
+}
+@media(max-width:1180px){
+
+.outer-project-container {
+  padding: 0 6rem;
+}
+.modalImage{
+  padding:8rem 5rem;
+}
+}
+@media (max-width: 1110px) {
+  .project-title{
+    text-align:center;
+  }
+  .description {
+    font-size: 1.2rem;
+  }
+  
+ .inner-ecommerce {
+    flex-direction: column-reverse;
+    gap: 4rem;
+  }
+  .inner-scholarcat {
+    flex-direction: column;
+    gap: 4rem;
+  }
+  .inner-weather {
+    flex-direction: column-reverse;
+    gap: 4rem;
+  }
+
+.project-header {
+  text-align: center;
+  font-size: 32px;
+}
+.outer-skill-container {
+  grid-template-columns: auto;
+  grid-template-rows: auto auto;
+  margin-top: 2rem;
+  height: auto;
+}
+.inner-skill-container {
+  margin-bottom: 3rem;
+}
+.skill-container1 {
+  width: 28rem;
+}
+.skill-container {
+  padding-bottom: 3.5rem;
+}
+.skill-description {
+  width: 40rem;
+}
+}
+@media (max-width: 1024px) {
+  .skill-description {
+    font-size: 1.4rem;
+    margin: 0px auto;
+    width: 40rem;
+  }
+ 
+  .skill-container {
+    padding-bottom: 10rem;
+  }
+  .semi-outer-skill-container {
+    display: block;
+    padding: 10% 5rem;
+    height: auto;
+}
+  .inner-container {
+    flex-direction: column;
+  }
+  .content-aboutme {
+    margin: 0px auto;
+    padding: 0rem 5rem;
+    padding-top: 2rem;
+    width: auto;
+    text-align: justify;
+    font-family: "Nunito", sans-serif;
+    height: auto;
+    font-size: 1.4rem;
+  }
+  .img-container {
+    width: 50vw;
+    margin: 0px auto;
+  }
+  .img {
+    width: 50vw;
+    height: 40vw;
+    object-fit: fill;
+  }
+  .outer-contact-container {
+    height: auto;
+    flex-direction: column-reverse;
+    margin-top: 3rem;
+    padding-bottom: 4rem;
+  }
+  #fname,#lname{
+    width:100%;
+  }
+  .contact-logo {
+    /* margin-left:20%; */
+    margin-top: 5rem;
+  }
+  .outer-skill-container {
+    padding-top: 14rem;
+}
+}
+/* ipad, tablets */
+@media(max-width:1024px){
+  @media(min-height:800px){
+    .outer-typewriter {
+      min-height: 100vh;
+  }
+  .inner-typewriter{
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    margin:auto auto;
+  }
+  .typewriter1{
+    margin:0px auto;
+    margin-top:2rem;
+    margin-bottom:7rem;
+    transform:translateX(-25%);
+    width:auto;
+  }
+  .typewriter-image-container{
+    text-align:center;
+  }
+  .typewriter-image {
+margin:0px auto;
+    width: 65%;
+  }
+  .skillsLogo {
+    height: 3.5vh;
+    width: 5vw;
+}
+.image {
+  height: 6vh;
+  width: 8vw;
+}
+.modalImage{
+  padding: 25rem 5rem;
+}
+  }
+}
+@media (max-width: 850px) {
+  .skill-description {
+    font-size: 1.35rem;
+    margin: 0px auto;
+    width: auto;
+}
+.inner-skill-container{
+  padding:0 2.5rem; 
+   width:auto; 
+}
+ .semi-outer-skill-container{
+   display:block;
+ } 
+.content-aboutme {
+  padding: 0rem 3rem;
+  padding-top: 2rem;
+  width: auto;
+  text-align: justify;
+  font-size: 1.35rem;
+}
+.skill-container {
+  padding-bottom: 15rem;
+}
+.outer-skill-container{
+  margin:0px auto;
+}
+.modalImage{
+  padding:23rem 5rem;
+}
+}
+
+@media(max-width:750px){
+  .skill-description {
+    font-size: 1.3rem;
+    margin: 0px auto;
+    width: 30rem;
+}
+.inner-skill-container{
+  padding:0 2.5rem; 
+   width:30rem; 
+}
+.skills-logo{
+  width:30rem;
+}
+}
+
+/* mobile */
+@media(max-width:550px){
+  .typewriter-image {
+display:none;
+}
+.outer-typewriter{
+  clip-path: polygon(0 0, 100% 0, 100% 95vh, 0 100%);
+  padding:0rem;
+}
+.typewriter1 {
+  margin: auto auto;
+  transform:none;
+  width: auto;
+  padding-bottom: 5rem;
+}
+.inner-typewriter{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  min-height:100vh;
+  width:auto;
+  padding:0;
+  margin:0px auto;
+}
+.content-aboutme {
+  padding: 0rem;
+  padding-top: 3rem;
+  width: auto;
+  text-align: justify;
+  font-size: 1.2rem;
+}
+.quotes {
+  font-size: 1.3rem;
+}
+.outer-aboutme {
+  text-align: center;
+  padding: 0 3rem;
+}
+#aboutme {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: rgb(39, 45, 130);
+  margin-bottom: 1.5rem;
+}
+.img {
+  width: 55vw;
+  height: 45vw;
+  object-fit: fill;
+}
+.outer-skill-container {
+  -webkit-clip-path: polygon(0 0, 0 80%, 100% 100%, 100% 20%);
+  clip-path: polygon(0 0, 0 90%, 100% 100%, 100% 10%);
+ padding:0;
+  height: auto;
+}
+.semi-outer-skill-container{
+  display: block;
+  padding: 25% 2rem;
+  padding-bottom:5%;
+  height:auto;
+}
+.inner-skill-container {
+  padding: 0;
+  width: auto;
+}
+.skill-container{
+  padding-bottom:10rem;
+}
+.skill-container1 {
+  width: 20rem;
+  margin:0px auto;
+}
+.description {
+  font-size: 1.05rem;
+}
+#skills{
+  font-size:2.5rem;
+}
+.skills-logo {
+  width: 20rem;
+  height:85px;
+}
+.inner-skill-container {
+  width:auto;
+
+}
+.skill-description {
+  font-size: 1.2rem;
+  margin: 0px auto;
+  width: auto;
+}
+.skillName {
+  font-size: 1.5rem;
+  margin-left: 1rem;
+}
+.skill-image-container {
+  width: 6.5rem;
+  height: 6.5rem;
+}
+.image {
+  height: 7vh;
+  width: 15vw;
+}
+.skillsLogo {
+  height: 4vh;
+  width: 8vw;
+}
+.logo-container {
+  height: 3.5rem;
+  width: 3.5rem;
+  margin-right: 1rem;
+  padding: 1rem;
+}
+
+.project-image {
+  width: 18rem;
+  height: 10rem;
+  object-fit: fill;
+  border-radius: 5%;
+}
+.outer-project-container {
+  padding: 0 3rem;
+}
+.github-image {
+  width: 15rem;
+  height: 9rem;
+}
+.github-description{
+  font-size: 1.5rem;
+  margin: 3rem 0px 0px 0px;
+}
+
+.outer-contact-container {
+  padding: 10rem 3rem 5rem 3rem;
+  clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
+}
+.subHeading {
+  font-size: 1.5rem;
+}
+input, textarea {
+  padding: 0.65rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+.email-contact {
+  margin: 0 auto;
+  width: auto;
+  font-size: 1.5rem;
+  padding: 0;
+}
+.btn-1 {
+  padding: 0.5rem 0.7rem;
+}
+
+.inner-footer {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows:auto auto;
+  font-size: 1rem;
+}
+.footerImage {
+  width: 4rem;
+  height: 3rem;
+  border-radius: 10%;
+}
+.linkedin {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-right: 1rem;
+}
+.project-header {
+  text-align: center;
+  font-size: 1.75rem;
+}
+.project-title {
+font-size:2.5rem
+}
+html{
+  overflow-x:hidden;
+}
+.icon{
+  font-size:2rem;
+}
+.modalImage{
+  padding: 37vh 5vw;
+}
+
+}
+@media(max-width:360px){
+  .outer-typewriter{
+    font-size:1.55rem;
+  }
+  .name{
+    font-size:2.35rem;
+  }
+  .outer-aboutme {
+    padding: 0 2rem;
+}
+.skills-logo {
+  width: 16rem;
+}
+.skill-container1 {
+  width: 17rem;
+}
+.description {
+  font-size: 1rem;
+}
+.skill-image-container {
+  width: 5rem;
+  height: 5rem;
+}
+.skillName {
+  font-size: 1.35rem;
+  margin-left: 1rem;
+}
+.skill-description{
+  padding:0rem;
+}
+}

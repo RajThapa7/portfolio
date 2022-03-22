@@ -1,0 +1,257 @@
+.dark-mode {
+  background-color: #1a1919;
+  color: #999;
+  height: 100%;
+  transition: background-color 0.25s ease-in-out;
+}
+
+.light-mode {
+  background-color: #fff;
+  color: #333;
+  height: 100%;
+  transition: background-color 0.25s ease-in-out;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  /* left:44%;
+    top:-54%; */
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 14px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  /* width: 60px; */
+  width: 3.35rem;
+  /* height: 34px; */
+  height: 1.7rem;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #19a2c1;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+.switch-checkbox {
+  padding: 10px;
+  /* position: relative; */
+  /* top: 0.35rem; */
+}
+
+/* darkmode for components */
+*{
+  transition: background-color 0.5s ease-in-out;
+}
+.darkBody {
+  background-color: #1c1c21;
+  color: #99c1e6;
+}
+.dark-icon {
+  color: rgb(191, 191, 191);
+}
+.dark-icon:hover {
+  color: rgb(153, 189, 230);
+  transform: scale(1.1);
+}
+.dark-navbar {
+  color: white;
+  background-color: #1c1c21;
+  transition: background-color 0.5s ease-in-out;
+}
+.dark-social-icons a {
+  color: #99c6e6;
+}
+.dark-links a {
+  color: #aac0d5;
+}
+/* typewriter */
+.dark-name {
+  color: rgb(153, 189, 230);
+}
+.dark-btn {
+  border: 0.15rem solid rgb(164, 167, 172);
+  color: rgb(153, 189, 230);
+}
+.dark-btn > a {
+  color: rgb(153, 189, 230);
+}
+.dark-btn:hover {
+  background-color: rgb(22, 54, 90);
+  color: rgb(255, 255, 255);
+}
+.dark-outer-typewriter {
+  font-family: "Nunito", sans-serif;
+  font-size: 2rem;
+  padding: 5rem 3rem 0rem 3rem;
+  min-height: 100vh;
+  margin-bottom: 0px;
+  background-image: linear-gradient(90deg, rgb(31, 50, 68), rgb(61, 115, 157));
+  clip-path: polygon(0 0, 100% 0, 100% 90vh, 0 100%);
+}
+
+/* about me */
+.dark-outer-aboutme {
+  background-color: #1c1c21;
+  margin-top: 0px;
+  height: auto;
+  text-align: center;
+  overflow: hidden;
+  color: black;
+  padding: 5rem;
+}
+
+.dark-content-aboutme {
+  color: #bfbfbf;
+}
+#dark-skills {
+  color: #99bde6;
+  font-size: 3rem;
+  font-weight: 700;
+
+}
+.dark-skills-logo {
+  background-color: rgb(28, 28, 33);
+  box-shadow: rgb(92 92 92) 1px 1px 5px 3px;
+}
+.dark-logo-container {
+  box-shadow: rgb(84 106 120) 1px 1px 4px 0.5px;
+  background-color: rgb(23, 63, 94);
+}
+.dark-description {
+  color: rgb(191, 191, 191);
+}
+.dark-skill-image-container {
+  border: 0.3rem solid rgb(29, 87, 114);
+  background-color: rgba(28, 28, 33, 0.15);
+  box-shadow: rgb(29 87 114) 1px 1px 1px 1px;
+}
+.dark-outer-skill-container {
+  background-image: linear-gradient(
+    to right bottom,
+    rgb(29, 36, 46),
+    rgb(60, 114, 155)
+  );
+  clip-path: polygon(0 0, 0 80%, 100% 100%, 100% 20%);
+  height: auto;
+}
+.dark-skill-container1 {
+  background-color: rgba(28, 28, 33, 0.15);
+  box-shadow: rgb(153 153 153 / 60%) 0px 3px 20px;
+}
+
+.dark-skillName {
+  color: rgb(153, 189, 230);
+}
+/* project */
+.dark-project-title {
+  color: rgb(153, 189, 230);
+}
+.dark-project-header {
+  color: rgb(158, 230, 153);
+}
+.dark-project-logo-image {
+  background-color: rgb(27, 72, 106);
+  box-shadow: rgb(0 0 0 / 20%) 0px 0px 10px 0px;
+}
+.dark-outer-project-container {
+  background-color: #1c1c21;
+  text-align: center;
+  color: black;
+  height: auto;
+  padding: 0 10rem;
+}
+.dark-project-description {
+  color: rgb(191, 191, 191);
+}
+.dark-github-description {
+  color: rgb(153, 189, 230);
+}
+/* contact */
+.dark-outer-contact-container {
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  padding: 10rem 0rem 5rem 0rem;
+  background-image: linear-gradient(
+    to right bottom,
+    rgb(32, 42, 54),
+    rgb(61, 114, 155)
+  );
+  -webkit-clip-path: polygon(0 16%, 100% 0, 100% 100%, 0% 100%);
+  clip-path: polygon(0 16%, 100% 0, 100% 100%, 0% 100%);
+}
+.dark-subHeading {
+  color: rgb(153, 189, 230);
+}
+.dark-connectText {
+  color: #bfbfbf;
+}
+.dark-mailicon {
+  color: #bfbfbf;
+}
+.dark-locicon {
+  color: #bfbfbf;
+}
