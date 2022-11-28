@@ -6,6 +6,7 @@ import "../css/theme.css";
 export default function ThemeToggle() {
   const { darkMode } = useContext(ThemeContext);
   const { setDarkMode } = useContext(ThemeContext);
+  
   return (
     <>
       <div className="container">

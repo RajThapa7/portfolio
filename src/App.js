@@ -8,13 +8,14 @@ import Projects from "./components/projects.js";
 import Contact from "./components/contact.js";
 import Footer from "./components/footer.js";
 import ScrollIndicator from "./components/ScrollIndicator";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./css/theme.css";
 export const ThemeContext = React.createContext();
 
 function App() {
-
   const [darkMode, setDarkMode] = useState(false);
+  
+
   return (
     <div className={darkMode ? "darkBody" : ""}>
       <ThemeContext.Provider value={{ darkMode, setDarkMode}}>

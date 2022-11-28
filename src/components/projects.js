@@ -1,7 +1,7 @@
 import React, { useContext, useState, useEffect } from "react";
 import Modal from "./modal.js";
 import "../css/index.css";
-import scholarcat from "../images/scholarcat.png";
+import tgmr from "../images/tgmr1.PNG";
 import github from "../images/github.png";
 import weather from "../images/weatherApp.png";
 import pasal from "../images/pasal.png";
@@ -22,7 +22,7 @@ export default function Projects() {
   const [index, setIndex] = useState(0);
   const [item, setItem] = useState(data);
   useEffect(() => {
-    AOS.init({ easing: "linear", duration: 500,once: true });
+    AOS.init({ easing: "linear", duration: 500, once: true });
   }, []);
   const pasalClick = () => {
     setIsOpen(true);
@@ -63,6 +63,8 @@ export default function Projects() {
 
         <div className="inner-project-container">
           <div className="ecommerce">
+            <div>
+
             <a href="https://pasal.netlify.app/" target="_blank">
               <p
                 className={
@@ -75,6 +77,7 @@ export default function Projects() {
                 Pasal
               </p>
             </a>
+            </div>
             <div className="inner-ecommerce">
               <div
                 className={
@@ -141,7 +144,7 @@ export default function Projects() {
             </div>
           </div>
           <div className="scholarcat">
-            <a href="https://thescholarcat.com/" target="_blank">
+            <a href="https://tgmr.netlify.app/" target="_blank">
               <p
                 className={
                   darkMode
@@ -150,13 +153,13 @@ export default function Projects() {
                 }
                 data-aos="zoom-in-down"
               >
-                Blog Site
+                Movie Review Site
               </p>
             </a>
             <div className="inner-scholarcat">
               <div className="project-image-container" data-aos="fade-right">
                 <img
-                  src={scholarcat}
+                  src={tgmr}
                   className="project-image"
                   onClick={() => blogClick()}
                 />
@@ -197,7 +200,7 @@ export default function Projects() {
                     }
                   />
                   <img
-                    src={wordpress}
+                    src={react}
                     alt=""
                     className={
                       darkMode
@@ -208,9 +211,9 @@ export default function Projects() {
                 </div>
                 <ul>
                   <li>Responsive Design</li>
-                  <li>SEO optimized</li>
-                  <li>Post blogs, articles</li>
-                  <li>Wordpress as CMS</li>
+                  <li>List of trending movies, TV shows</li>
+                  <li>Details of Movies, TV shows</li>
+                  <li>Data fetching using API</li>
                   <li>Great UI/UX design</li>
                 </ul>
               </div>

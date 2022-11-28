@@ -33,7 +33,7 @@ export const social = [
   },
   {
     id: 2,
-    url: 'https://www.twitter.com',
+    url: 'https://twitter.com/rajthapa_7',
     icon: <FaTwitter />,
   },
   {
